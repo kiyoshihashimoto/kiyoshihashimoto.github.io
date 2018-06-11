@@ -11,22 +11,22 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #DDDBF1;
 }
 
 hr.light {
-  border-color: #fff;
+  border-color: #383F51;
 }
 
 a {
-  color: #F05F40;
+  color: #DDDBF1;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
+  color: #DDDBF1;
 }
 
 h1,
@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: #DDDBF1 !important;
 }
 
 .bg-dark {
@@ -47,7 +47,7 @@ h6 {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: #383F51;
 }
 
 section {
@@ -59,30 +59,30 @@ section {
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #383F51;
   background: #212529;
   text-shadow: none;
 }
 
 ::selection {
-  color: #fff;
+  color: #383F51;
   background: #212529;
   text-shadow: none;
 }
 
 img::selection {
-  color: #fff;
+  color: #383F51;
   background: transparent;
 }
 
 img::-moz-selection {
-  color: #fff;
+  color: #383F51;
   background: transparent;
 }
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #383F51;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -92,12 +92,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: #DDDBF1;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: #DDDBF1;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -110,12 +110,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: #DDDBF1;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: #DDDBF1 !important;
   background-color: transparent;
 }
 
@@ -133,7 +133,7 @@ img::-moz-selection {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #383F51;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -144,17 +144,17 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #383F51;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    background-color: #383F51;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: #DDDBF1;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #DDDBF1;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -162,7 +162,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: #DDDBF1;
   }
 }
 
@@ -233,7 +233,7 @@ header.masthead p {
   height: 100%;
   text-align: center;
   opacity: 0;
-  color: #fff;
+  color: #383F51;
   background: rgba(240, 95, 64, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -282,7 +282,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #F05F40 !important;
+  color: #DDDBF1 !important;
 }
 
 .btn {
@@ -298,13 +298,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #DDDBF1;
+  border-color: #383F51;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
-  background-color: #ee4b28 !important;
+  color: #383F51;
+  background-color: #DDDBF1 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
