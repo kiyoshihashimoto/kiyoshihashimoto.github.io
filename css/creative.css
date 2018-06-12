@@ -9,7 +9,10 @@
   src: url(../fonts/IBM\ Plex\ Sans\ Text.otf);
 
   font-family: font4;
-  src: url(../fonts/IBM\ Plex\ Sans\ Light.otf)
+  src: url(../fonts/IBM\ Plex\ Sans\ Light.otf);
+
+  font-family: font5;
+  src: url(../fonts/IBM\ Plex\ Sans\ SemiBold\ Italic.otf);
 }
 
 body,
@@ -266,9 +269,9 @@ header.masthead {
   position:absolute;
   top:0;
   left:0;
-  background: #a0c3e9;
+  background: #63a1e4;
   z-index:-1;
-  opacity:0.6;
+  opacity:0.72;
 }
 
 .header-content {
@@ -288,8 +291,9 @@ header.masthead h1 {
 header.masthead p {
   font-weight: 300;
   font-size: 1.4rem;
-  color: rgba(229, 236, 243, 0.904) ;
-  text-shadow: 1.2px 1.2px rgba(138, 161, 185, 0.856);
+  color: rgba(237, 243, 248, 0.959) ;
+  text-shadow: 0.75px 0.75px rgba(126, 170, 218, 0.815);
+  font-family: font2;
 }
 
 
