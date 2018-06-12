@@ -1,6 +1,6 @@
 @font-face {
   font-family: font1;
-  src: url(../fonts/IBM\ Plex\ Sans\ SemiBold.otf);
+  src: url(../fonts/IBM\ Plex\ Sans\ Medium.otf);
 
   font-family: font2;
   src: url(../fonts/IBM\ Plex\ Sans\ Bold.otf);
@@ -20,6 +20,8 @@ html {
 
 body {
   font-family: font3;
+  text-shadow: 0.4px 0.4px rgba(200, 205, 209, 0.801);
+  font-size: 1.5em;
 }
 
 hr {
@@ -51,11 +53,11 @@ h5,
 h6 {
   font-family: font1;
   font-size: 1.4em;
-  text-shadow: 0.3px 0.3px rgba(200, 205, 209, 0.801);
+  text-shadow: 0.45px 0.45px rgba(200, 205, 209, 0.801);
 }
 
 .bg-primary {
-  background-color:#8caccf !important;
+  background-color:#b9c8d8 !important;
 }
 
 .bg-dark {
@@ -68,7 +70,8 @@ section {
 
 .section-heading {
   margin-top: 0;
-  font-size: 2em;
+  font-size: 2.05em;
+  text-transform: uppercase;
 }
 
 ::-moz-selection {
@@ -221,7 +224,7 @@ header.masthead {
   width:100%;
   height:100vh;
   overflow:hidden;
-  z-index: -100;
+  z-index: -2;
   /*object-fit: fill;*/
 }
 
@@ -246,8 +249,8 @@ header.masthead {
   position:absolute;
   top:0;
   left:0;
-  background: #8caccf;
-  z-index:1;
+  background: #a0c3e9;
+  z-index:-1;
   opacity:0.6;
 }
 
@@ -262,20 +265,20 @@ header.masthead hr {
 
 
 header.masthead h1 {
-  font-size: 1.75rem;
+  font-size: 1.95rem;
 }
 
 header.masthead p {
   font-weight: 300;
   font-size: 1.4rem;
-  color: rgba(255, 255, 255, 0.76) ;
-  text-shadow: 1.4px 1.4px rgba(117, 137, 158, 0.678);
+  color: rgba(229, 236, 243, 0.904) ;
+  text-shadow: 1.2px 1.2px rgba(138, 161, 185, 0.856);
 }
 
 
 @media (min-width: 768px) {
   header.masthead p {
-    font-size: 1.6rem;
+    font-size: 1.85rem;
   }
 }
 
@@ -365,7 +368,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: rgba(255, 255, 255, 0.945) !important;
+  color: rgba(237, 243, 248, 0.959) !important;
 }
 
 .btn {
@@ -378,7 +381,7 @@ header.masthead p {
 }
 
 .btn-xl {
-  padding: 1rem 2rem;
+  padding: 1.0rem 1.5rem;
 }
 
 .btn-primary {
