@@ -1,3 +1,17 @@
+@font-face {
+  font-family: font1;
+  src: url(../fonts/IBM\ Plex\ Sans\ SemiBold.otf);
+
+  font-family: font2;
+  src: url(../fonts/IBM\ Plex\ Sans\ Bold.otf);
+
+  font-family: font3;
+  src: url(../fonts/IBM\ Plex\ Sans\ Text.otf);
+
+  font-family: font4;
+  src: url(../fonts/IBM\ Plex\ Sans\ Light.otf)
+}
+
 body,
 html {
   width: 100%;
@@ -5,13 +19,13 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: font3;
 }
 
 hr {
-  max-width: 50px;
-  border-width: 3px;
-  border-color: #021118f1;
+  max-width: 250px;
+  border-width: 1.5px;
+  border-color: #4e626be0;
 }
 
 hr.light {
@@ -19,14 +33,14 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: rgb(44, 185, 162);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
+  color: rgb(44, 185, 162);
 }
 
 h1,
@@ -35,7 +49,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: font1;
+  font-size: 1.4em;
+  text-shadow: 0.3px 0.3px rgba(200, 205, 209, 0.801);
 }
 
 .bg-primary {
@@ -46,17 +62,13 @@ h6 {
   background-color: #212529 !important;
 }
 
-.text-faded {
-  color: rgba(255, 255, 255, 0.945);
-  text-shadow: 0.75px 0.75px #212529
-}
-
 section {
   padding: 8rem 0;
 }
 
 .section-heading {
   margin-top: 0;
+  font-size: 2em;
 }
 
 ::-moz-selection {
@@ -93,12 +105,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: rgb(44, 185, 162);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: rgb(44, 185, 162);
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -116,7 +128,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #rgb(44, 185, 162) !important;
+  color: rgb(44, 185, 162) !important;
   background-color: transparent;
 }
 
@@ -187,13 +199,12 @@ header.masthead {
   align-items: center;
 }
 
-
+/*********************/
 .text-title {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  text-shadow: 1.5px 1.5px #00000063;
-  text-emphasis: bold;
+  font-family: font2;
+  text-shadow: 1.9px 1.9px rgba(117, 137, 158, 0.678);
+  text-transform: uppercase;
 }
-
 
 .h-container {
   max-width:960px;
@@ -202,7 +213,6 @@ header.masthead {
   margin:auto;
   text-align:center; 
 }
-
 
 .fullscreen-video-wrap {
   position:absolute;
@@ -250,17 +260,22 @@ header.masthead hr {
   margin-bottom: 30px;
 }
 
+
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 header.masthead p {
   font-weight: 300;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.76) ;
+  text-shadow: 1.4px 1.4px rgba(117, 137, 158, 0.678);
 }
+
 
 @media (min-width: 768px) {
   header.masthead p {
-    font-size: 1.15rem;
+    font-size: 1.6rem;
   }
 }
 
@@ -354,11 +369,12 @@ header.masthead p {
 }
 
 .btn {
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: font4;
+  text-shadow: 0.6px 0.6px rgba(117, 137, 158, 0.678);
 }
 
 .btn-xl {
@@ -366,17 +382,19 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #63a9d8;
+  background-color: #7db9e0d2;
   border-color: rgb(64, 240, 167);
+  box-shadow: 0 0 0 0.01rem rgba(87, 67, 62, 0.5)
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background-color: #2b99cc !important;
+  text-shadow: 0.6px 0.6px rgba(17, 50, 83, 0.678);
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(87, 67, 62, 0.5) !important;
+  box-shadow: 0 0 0 0.05rem rgba(87, 67, 62, 0.5) !important;
 }
 
 .text-icon {
