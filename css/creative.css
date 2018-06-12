@@ -479,6 +479,17 @@ a[href^="mailto:"]
   color: #63a9d8;
 }
 
+.dont-skip {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.p-padding {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+
 /* css to box some elements
 .box-it {
   box-shadow: 3px -3px 5px rgba(0, 0, 0, 0.3), -3px 3px 5px rgba(0, 0, 0, 0.3);
