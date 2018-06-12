@@ -26,6 +26,15 @@ body {
   text-shadow: 0.4px 0.4px rgba(200, 205, 209, 0.801);
   font-size: 1.5em;
 }
+/*
+@media (max-width: 768px) {
+  body {
+    font-family: font3;
+    text-shadow: 0.15px 0.15px rgba(200, 205, 209, 0.801);
+    font-size: 0.8em;
+  }
+}
+*/
 
 hr {
   max-width: 250px;
@@ -78,6 +87,7 @@ section {
   z-index: 1;
 }
 
+
 @media (min-width: 992px) {
   section {
   width: 100%;
@@ -85,10 +95,26 @@ section {
   }
 }
 
+
+@media (min-width: 456px) and (max-width: 993px) {
+  .section-for-needs {
+    padding: 16rem 0;
+  }
+}
+
+
 .section-heading {
   margin-top: 0;
   font-size: 2.05em;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+  margin-top: 0;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  }
 }
 
 ::-moz-selection {
@@ -202,11 +228,11 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px); 
-  background-size: cover;
   box-shadow: 0px 20px 40px rgba(96, 150, 231, 0.267); 
   position: relative;
   z-index: 1;
   /*
+  background-size: cover;
   background-image: url("../img/header.jpg");
   background-position: center center;
   -webkit-background-size: cover;
@@ -215,6 +241,15 @@ header.masthead {
   background-size: cover;
   */
 }
+
+@media (max-width: 768px) {
+  header.masthead {
+    padding-top: 10rem;
+    box-shadow: 0px 20px 40px rgba(96, 150, 231, 0.267); 
+    z-index: 1;
+  }
+}
+
 
 .header {
   height: 100vh;
@@ -287,6 +322,19 @@ header.masthead hr {
 header.masthead h1 {
   font-size: 1.95rem;
 }
+
+@media (max-width: 768px) {
+  header.masthead h1 {
+    font-size: 1.5rem;
+  }
+  header.masthead p {
+    font-size: 0.8rem;
+  }
+  .btn-xl {
+    padding: 0.5rem 0.75rem
+  }
+}
+
 
 header.masthead p {
   font-weight: 300;
