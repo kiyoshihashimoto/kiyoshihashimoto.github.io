@@ -1,0 +1,83 @@
+/*----global-----*/
+
+@font-face {
+    font-family: alcu;
+    src: url(fonts/Alcubierre.otf);
+}
+
+@font-face {
+    font-family: mon;
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-family: lora;
+    src: url(fonts/Lora-Regular.ttf);
+}
+
+html {
+    font-family: lora;  
+}
+
+h1 {
+    font-family: alcu;
+    letter-spacing: 1rem;
+    text-indent: 1rem;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: alcu;
+}
+
+p {
+    font-size: 1.4rem;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #809594;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    width:175px;
+    height: 53px;
+    line-height: 53px;
+    text-align:center;
+    font-size: 1.5rem; 
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+
+/*------nav--------*/
+
+nav {
+    font-family: alcu;
+    letter-spacing: 0.05rem;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-auto-rows: minmax(100px, auto); 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; 
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+/*-----landing-----*/
+.mainhead{
+    font-size: 6rem;
+    letter-spacing: 2rem;
+    text-indent: 2rem;
+    margin-bottom: 0%;
+}
+
+.mainh2{
+    letter-spacing: 1rem;
+}
+
+
+

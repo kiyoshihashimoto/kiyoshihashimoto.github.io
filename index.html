@@ -1,313 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120786008-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-120786008-1');
-</script>
+<head>
     
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!-- required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
 
-    <title>AKG</title>
+    <title>AKG Corporation</title>
+	<meta name="author" content="Fred Yang" />
+	<meta name="description" content="AKG marketing corporation works with cryptocurrency companies to create value and spread their brand." />
+	<meta name="keywords"  content="cryptocurrency,ico,AKG,marketing,crypto,investment,blockchain,bitcoin" />
+    <meta name="Resource-type" content="Document" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+    <script src="vendors/easings.min.js"></script>
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <script type="text/javascript" src="fullpage.js"></script>
 
-    <!-- Custom styles for this template -->
-    <link href="css/creative.min.css" rel="stylesheet">
+	<style>
+        
+            /* Centered texts in each section
+            * --------------------------------------- */
+            .section{
+                text-align:center;
+            }
 
-  </head>
+            /* Overwriting styles for control arrows for slides
+            * --------------------------------------- */
+            .controlArrow.prev {
+                left: 50px;
+            }
+            .controlArrow.next{
+                right: 50px;
+            }
 
-  <body id="page-top">
+            /* Backgrounds will cover all the section
+            * --------------------------------------- */
+            #section0,
+            #section1,
+            #section2,
+            #section3,
+            #section4,
+            #section5,
+            #section6
+            {
+                background-size: cover;
+                background-position: 0,0,0,0;
+                background-attachment: fixed;
+            }
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">AKG</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#consultation">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
+            /* Defining each section background and styles
+            * --------------------------------------- */
+            #section0{
+                background-image: url(images/bg1.png);   
+                background-position: center; 
+            }
+            #section1{
+                background-image: url(images/who-bg.png);    
+                padding: 3%;  
+                background-position: center;
+            }
+            #section2{
+                background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(images/what-bg.png);
+                padding: 4%;     
+                background-position: center;           
+            }
+            #section3{
+                padding: 3%;
+            }
+            #section5{
+                background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(images/career-bg.png);
+                padding: 3%;
+                background-position: center;  
+            }            
+            #section6{
+                background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+                padding: 3%;  
+            }    
+        
+            /*Adding background for the slides
+            * --------------------------------------- */
+            #slide1{
+                background-image: url(images/Artboard1.png);
+                background-size: auto 80%;
+                background-attachment: fixed;
+                background-position: center;
+            }
+            #slide2{
+                background-image: url(images/case-studies.png);
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center;
+            }
+            </style>
+        
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <nav>
+                <a></a>
+                <a></a>
+                <a href="#">WHO WE ARE</a>
+                <a href="#">WHAT WE DO</a>
+                <a href="#">OUR WORK</a>
+                <a href="#">CASE STUDIES</a>
+                <a href="#">CAREERS</a>
+                <a href="#">CONTACT US</a>
+            </nav>
+            <h1 class="mainhead">AKG</h1>
+            <h2 class="mainh2">spread your brand beyond your imagination</h2>
         </div>
-      </div>
-    </nav>
-
-    <header class="masthead text-center d-flex">
-      <div class="h-container my-auto">
-        <div class="fullscreen-video-wrap">
-          <!--
-          <video src="../img/waterfall1.webm" autoplay="true" loop="true">
-          </video>
-          -->
-          <video playsinline autoplay muted loop poster="../img/Oculus.jpg">
-              <source src="../img/Oculus.webm" type="video/webm">
-              <source src="../img/Oculus.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="header-overlay">
-        </div>
-        <div class="row">
-          <div class="header-content">
-            <div class="col-lg-10 mx-auto">
-              <h1 class="text-title text-primary">
-                Blockchain Digital Marketing
-              </h1>
-              <hr>
-            </div>
-            <div class="col-lg-10 mx-auto">
-              <p class="text-faded text-header dont-skip">WE EXIST TO CREATE A BETTER FUTURE WITH YOU.</p> 
-              <p class="text-faded text-header mb-5 dont-skip">
-              LET'S INNOVATE TOGETHER.</p>
-              <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Work with us</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="bg-primary section-for-needs" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-black">OUR COMPANY</h2>
-            <hr class="light my-4">
-            <p><i>"A marketing plan should not be like playing darts."</i></p>
-            <p class="text-black mb-4">
-                Marketing your business in the 21st Century is no easy task. Don’t waste precious time and resources.
-                At AKG, we start at the beginning. Your brand’s vision. Then, we guide you through a distinctly crafted plan for your business’ success. We use data-driven analytics to not only advise, but also create a sustainable and scalable marketing foundation for our clients. 
-                Your success means our success and we will work with you to help you build your story.                
-                </p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="box-shadow-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">SERVICES</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-diamond text-icon mb-3 sr-icons"></i>
-              <h3 class="mb-3">Data Analytics</h3>
-              <p class="text-muted mb-0">We use quantitative, data-driven methods, such as SEO and data tracking, to create results.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-paper-plane text-icon mb-3 sr-icons"></i>
-              <h3 class="mb-3">Sales Marketing</h3>
-              <p class="text-muted mb-0">With a team of diverse sales backgrounds, we will tap into our experience to get your product out there.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-newspaper-o text-icon mb-3 sr-icons"></i>
-              <h3 class="mb-3">Digital Media</h3>
-              <p class="text-muted mb-0">Digital Media (social media, blogs, news media, etc.) are huge drivers of success in marketing today and we will tap you into these mediums.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-heart text-icon mb-3 sr-icons"></i>
-              <h3 class="mb-3">Integrity</h3>
-              <p class="text-muted mb-0">We are a company founded upon trust and relationships, we will work closely with you to create your brand.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-<!-- 
-    <section class="p-0" id="portfolio">
-      <div class="container-fluid p-0">
-        <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Category
-                  </div>
-                  <div class="project-name">
-                    Project Name
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-   -->
-
-
-    <section id ="consultation" class="bg-primary">
-      <div class="container">
-          <div class="row">
-            <div class="col-lg-8  mx-auto text-center">
-              <h2 class="section-heading text-black">Consultations</h2>
-              <hr class="light my-4">
-              <p class="text-black mb-4">Take your first step and talk with us. Bring your brand to the forefront of your marketing and visualize where your business will be in the future. Technology moves quickly, move forward with us.</p>
-              <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </div>  
-    </section>
-
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's collaborate</h2>
-            <hr class="my-4">
-            <p class="text-center p-padding mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
-            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>281-994-7804</p>
-          </div>
-          <div class="col-lg-4 mr-auto text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="mailto:support@akgcorp.com">support@akgcorp.com</a>
+        <div class="section" id="section1">
+            <h1>WHO WE ARE</h1>
+            <p>"A marketing plan should not be like playing darts."</p>
+            <p>    
+                Marketing your business in the 21st Century is 
+                no easy task. Don’t waste precious time and 
+                resources. At AKG, we start at the beginning. 
+                Your brand’s vision. Then, we guide you 
+                through a distinctly crafted plan for your 
+                business’ success. We use data-driven 
+                analytics to not only advise, but also create a 
+                sustainable and scalable marketing 
+                foundation for our clients. Your success 
+                means our success and we will work with you 
+                to help you build your story.
             </p>
-          </div>
         </div>
-      </div>
-    </section>
+        <div class="section" id="section2">
+            <h1>WHAT WE DO</h1>
+            <p>
+                    We use quantitative, data-driven methods, such as 
+                    SEO and data tracking, to create results.
+                    And with a team of diverse sales backgrounds, we will 
+                    tap into our experience to get your product out 
+                    there.
+                    We are also experts of digital Media (social media, blogs, news media, etc.) 
+                    are huge drivers of success in marketing today and 
+                    we will tap you into these mediums.
+                    We are a company founded upon trust and 
+                    relationships, we will work closely with you to create 
+                    your brand.
+            </p>
+        </div>
+        <div class="section" id="section3">
+            <h1>OUR WORK</h1>
+            <div class="slide" id="slide1"></div>
+            <div class="slide"> Slide 3 </div>
+        </div>
+        <div class="section" id="section4">
+            <div class="slide" id="slide2"><h1>CASE STUDIES</h1></div>
+            <div class="slide"> Slide 2 </div>
+        </div>
+        <div class="section" id="section5">
+            <h1>CAREERS</h1>
+            <a href="#" class="btn">JOIN US</a>
+        </div>
+        <div class="section" id="section6">
+            <h1>CONTACT US</h1>
+            <p>Ready to start your next project with us? 
+                Give us a call or send us an email and we will get back to you.
+            </p>
+            <h3>
+                281-994-7804
+            </h3>
+            <h3>
+                support@akgcorp.com
+            </h3>
+        </div>
+    </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="fullpage.js"></script>
+    <script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: false,
+        css3:false,
+        anchors: ['home', 'who', 'what', 'work', 'case-studies', 'careers', 'contact'],
+        navigation: true,
+        navigationPosition: 'right',
+        //navigationTooltips: ['First page', 'Second page', 'Third and last page']
+    });
+    </script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!--
+    new fullpage('#fullpage', {
+        //options here
+        autoScrolling:true,
+        scrollHorizontally: true
+    });
+    
+    //methods
+    fullpage_api.setAllowScrolling(false);
+    -->
 
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
-
-  </body>
-
+</body>
 </html>
