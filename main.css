@@ -34,17 +34,18 @@ p {
 }
 
 .btn {
+    font-family: alcu;
     display: block;
     text-decoration: none;
     color: #ffffff;
     background-color: #809594;
     border: 2px solid #ffffff;
-    border-radius: 20px;
-    width:175px;
+    border-radius: 30px;
+    width:150px;
     height: 53px;
     line-height: 53px;
     text-align:center;
-    font-size: 1.5rem; 
+    font-size: 2rem; 
     margin: 0 auto;
     margin-top: 150px;
 }
