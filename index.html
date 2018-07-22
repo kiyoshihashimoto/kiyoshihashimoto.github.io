@@ -1,207 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <!-- required meta tags -->
+    <title>AKG Marketing</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-
-    <title>AKG Corporation</title>
-	<meta name="author" content="Fred Yang" />
-	<meta name="description" content="AKG marketing corporation works with cryptocurrency companies to create value and spread their brand." />
-	<meta name="keywords"  content="cryptocurrency,ico,AKG,marketing,crypto,investment,blockchain,bitcoin" />
-    <meta name="Resource-type" content="Document" />
-
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="fullpage.css" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
-
-    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
-    <script src="vendors/easings.min.js"></script>
-
-    <script type="text/javascript" src="fullpage.js"></script>
-
-	<style>
-        
-            /* Centered texts in each section
-            * --------------------------------------- */
-            .section{
-                text-align:center;
-            }
-
-            /* Overwriting styles for control arrows for slides
-            * --------------------------------------- */
-            .controlArrow.prev {
-                left: 50px;
-            }
-            .controlArrow.next{
-                right: 50px;
-            }
-
-            /* Backgrounds will cover all the section
-            * --------------------------------------- */
-            #section0,
-            #section1,
-            #section2,
-            #section3,
-            #section4,
-            #section5,
-            #section6
-            {
-                background-size: cover;
-                background-position: 0,0,0,0;
-                background-attachment: fixed;
-            }
-
-            /* Defining each section background and styles
-            * --------------------------------------- */
-            #section0{
-                background-image: url(images/bg1.png);   
-                background-position: center; 
-            }
-            #section1{
-                background-image: url(images/who-bg.png);    
-                padding: 3%;  
-                background-position: center;
-            }
-            #section2{
-                background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(images/what-bg.png);
-                padding: 4%;     
-                background-position: center;           
-            }
-            #section3{
-                padding: 3%;
-            }
-            #section5{
-                background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(images/career-bg.png);
-                padding: 3%;
-                background-position: center;  
-            }            
-            #section6{
-                background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
-                padding: 3%;  
-            }    
-        
-            /*Adding background for the slides
-            * --------------------------------------- */
-            #slide1{
-                background-image: url(images/Artboard1.png);
-                background-size: auto 80%;
-                background-attachment: fixed;
-                background-position: center;
-            }
-            #slide2{
-                background-image: url(images/case-studies.png);
-                background-size: cover;
-                background-attachment: fixed;
-                background-position: center;
-            }
-            </style>
-        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/nav.js"></script>
 </head>
 <body>
-    <div id="fullpage">
-        <div class="section" id="section0">
-            <nav>
-                <a></a>
-                <a></a>
-                <a href="#">WHO WE ARE</a>
-                <a href="#">WHAT WE DO</a>
-                <a href="#">OUR WORK</a>
-                <a href="#">CASE STUDIES</a>
-                <a href="#">CAREERS</a>
-                <a href="#">CONTACT US</a>
-            </nav>
-            <h1 class="mainhead">AKG</h1>
-            <h2 class="mainh2">spread your brand beyond your imagination</h2>
-        </div>
-        <div class="section" id="section1">
-            <h1>WHO WE ARE</h1>
-            <p>"A marketing plan should not be like playing darts."</p>
-            <p>    
-                Marketing your business in the 21st Century is 
-                no easy task. Don’t waste precious time and 
-                resources. At AKG, we start at the beginning. 
-                Your brand’s vision. Then, we guide you 
-                through a distinctly crafted plan for your 
-                business’ success. We use data-driven 
-                analytics to not only advise, but also create a 
-                sustainable and scalable marketing 
-                foundation for our clients. Your success 
-                means our success and we will work with you 
-                to help you build your story.
-            </p>
-        </div>
-        <div class="section" id="section2">
-            <h1>WHAT WE DO</h1>
-            <p>
-                    We use quantitative, data-driven methods, such as 
-                    SEO and data tracking, to create results.
-                    And with a team of diverse sales backgrounds, we will 
-                    tap into our experience to get your product out 
-                    there.
-                    We are also experts of digital Media (social media, blogs, news media, etc.) 
-                    are huge drivers of success in marketing today and 
-                    we will tap you into these mediums.
-                    We are a company founded upon trust and 
-                    relationships, we will work closely with you to create 
-                    your brand.
-            </p>
-        </div>
-        <!--
-        <div class="section" id="section3">
-            <h1>OUR WORK</h1>
-            <div class="slide" id="slide1"></div>
-            <div class="slide"> Slide 3 </div>
-        </div>
-        -->
-        <div class="section" id="section4">
-            <div class="slide" id="slide2"><h1>CASE STUDIES</h1></div>
-            <div class="slide"> Slide 2 </div>
-        </div>
-        <div class="section" id="section5">
-            <h1>CAREERS</h1>
-            <a href="#" class="btn">JOIN US</a>
-        </div>
-        <div class="section" id="section6">
-            <h1>CONTACT US</h1>
-            <p>Ready to start your next project with us? 
-                Give us a call or send us an email and we will get back to you.
-            </p>
-            <h3>
-                281-994-7804
-            </h3>
-            <h3>
-                support@akgcorp.com
-            </h3>
+    <div class="wrapper">
+        <nav>
+            <a href="#" class="logo"><img src="images/logo1.png" alt="akg logo"></a>
+            <a href="#">mission</a>
+            <a href="#">what</a>
+            <a href="#">work</a>
+            <a href="#">resources</a>
+            <a href="#">careers</a>
+            <a href="#">contact</a>
+        </nav>
+        <div class="landing">
+            <h1 class="home_header">MULTIPLY</h1>
+            <h2 class="home_header.1">you build your product.<br>we do the rest.</h2>
+            <br>
+            <p class="home_header_resources"><b>access marketing resources</b></p>
+            <section class="home_signup">
+                <div class="emailSignUp">
+                    <div class="form">          
+                        <form class = "contactForm"action="contactform.php" method="post">
+                            <input type="text" name="name" placeholder="full name"> 
+                            <input type="email" name="email" placeholder="email address">
+                            <textarea name="message" placeholder="message"></textarea>
+                            <button type="submit" name="subscribe">JOIN</button>
+                        </form>
+                    </div>
+                </div>
+            </section>            
         </div>
     </div>
-
-    <script type="text/javascript" src="fullpage.js"></script>
-    <script type="text/javascript">
-    var myFullpage = new fullpage('#fullpage', {
-        verticalCentered: false,
-        css3:false,
-        anchors: ['home', 'who', 'what', 'work', 'case-studies', 'careers', 'contact'],
-        navigation: true,
-        navigationPosition: 'right',
-        //navigationTooltips: ['First page', 'Second page', 'Third and last page']
-    });
-    </script>
-
-    <!--
-    new fullpage('#fullpage', {
-        //options here
-        autoScrolling:true,
-        scrollHorizontally: true
-    });
-    
-    //methods
-    fullpage_api.setAllowScrolling(false);
-    -->
-
 </body>
 </html>
